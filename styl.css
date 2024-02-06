@@ -33,7 +33,7 @@ h2{
     width: 40vh;
 }
 
- p{
+p{
     font-size: larger;
 }
 
@@ -75,9 +75,15 @@ form input{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6.5rem;
+    width: 6.75rem;
     border-radius: 0.5rem;
     border:  2px solid lightgray;
+}
+
+.select-container:hover{
+    border: 2px solid black;
+    box-shadow: 3px 3px 15px lightgray , -3px -3px 15px lightgray;
+    transition: box-shadow .4s linear;
 }
 
 .select-container select{
@@ -87,6 +93,7 @@ form input{
 
 .msg{
     margin: 2rem 0 2rem 0;
+    text-align: center;
 }
 
 form button{
@@ -95,4 +102,10 @@ form button{
     color: white;
     font-size: 1.15rem;
     cursor: pointer;
+}
+
+form button:hover{
+    border: 2px solid violet;
+    box-shadow: 2px 2px 20px violet , -2px -2px 20px violet;
+    transition: box-shadow .4s linear;
 }
